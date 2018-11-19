@@ -1,2 +1,6 @@
 # portfolio
 Sample portfolio page for the Telling Stories with Data course at Carnegie Mellon. 
+
+# Code
+
+<iframe width="801.5" height="495.5941666666667" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbBK8BQwoc1kYMISjni8yMf_jbwNV7u2RstVkwtlBBGM-aEP4B-hrwes010uar7a8mND8T1ADK3NY0/pubchart?oid=1000424581&amp;format=interactive"></iframe>
