@@ -1,5 +1,5 @@
 # portfolio
-Sample portfolio page for the Telling Stories with Data course at [Carnegie Mellon](/test). 
+Sample portfolio page for the Telling Stories with Data course at [Carnegie Mellon](/portfolio/test). 
 
 # San Fransisco street cleaning example
 
