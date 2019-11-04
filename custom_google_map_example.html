@@ -24,8 +24,9 @@
       function initMap() {
         // Styles a map in Pink Panther mode.
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 40.4583498, lng: -80.079528}, 
-          zoom: 12,
+          center: {lat: 40.4583498, lng: -80.079528},  // Setting the center to Pittsburgh
+          zoom: 15,  // Setting a zoom scale for Pittsburgh
+        // Add JSON from Map Style Wizard here  
           styles: [
   {
     "elementType": "geometry",
@@ -52,11 +53,29 @@
     ]
   },
   {
+    "featureType": "administrative",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
     "featureType": "administrative.country",
     "elementType": "geometry.stroke",
     "stylers": [
       {
         "color": "#ef31d5"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
@@ -93,6 +112,14 @@
     "stylers": [
       {
         "color": "#24041b"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
@@ -152,6 +179,15 @@
   },
   {
     "featureType": "road",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
     "elementType": "labels.text.fill",
     "stylers": [
       {
@@ -165,6 +201,15 @@
     "stylers": [
       {
         "color": "#24041b"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
@@ -188,6 +233,15 @@
   },
   {
     "featureType": "road.highway",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
     "elementType": "labels.text.fill",
     "stylers": [
       {
@@ -201,6 +255,31 @@
     "stylers": [
       {
         "color": "#24041b"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
@@ -259,8 +338,10 @@
     ]
   }
 ]
+// End of JSON from Style Wizard          
         });
       }
+// Don't forget your API Key below vv
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSvynyLMZwpa0vyNFEl-mB3l49ZnUWFNo&callback=initMap"
     async defer></script>
