@@ -3,7 +3,7 @@
   <Document>
     <name>Lunch</name>
     <description/>
-    <Style id="icon-1899-0288D1-nodesc-normal">
+    <Style id="icon-1899-0288D1-labelson-nodesc">
       <IconStyle>
         <color>ffd18802</color>
         <scale>1</scale>
@@ -12,44 +12,41 @@
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="icon-1899-A52714-labelson-nodesc">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff1427a5</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
+    <Style id="icon-1899-AFB42B-labelson-nodesc">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
     <Folder>
       <name>CMU</name>
       <Placemark>
         <name>Carnegie Mellon University</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
         <Point>
           <coordinates>
             -79.9429552,40.4427314,0
@@ -61,19 +58,28 @@
       <name>Lunch places</name>
       <Placemark>
         <name>Chipotle Mexican Grill</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-A52714-labelson-nodesc</styleUrl>
         <Point>
           <coordinates>
-            -79.9481105,40.4446441,0
+            -79.9483036,40.4446278,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Sushi Fuku</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
         <Point>
           <coordinates>
             -79.9573391,40.4417087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point 3</name>
+        <styleUrl>#icon-1899-AFB42B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.951499,40.4444481,0
           </coordinates>
         </Point>
       </Placemark>
