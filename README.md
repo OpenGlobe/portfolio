@@ -1,7 +1,7 @@
 # portfolio
 Sample portfolio page for the Telling Stories with Data course at [Carnegie Mellon](/portfolio/test). 
 
-Or, do it this way: [Carnegie Mellon](/portfolio/test.md). 
+Or, do it this way: [Carnegie Mellon](/portfolio/test.html). Both link to a page in the portfolio repo named test.md. 
 
 # San Fransisco street cleaning example
 
